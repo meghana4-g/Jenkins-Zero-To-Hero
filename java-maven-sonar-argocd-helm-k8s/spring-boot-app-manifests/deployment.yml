@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: spring-boot-app
-        image: meghmayu/ultimate-cicd:1
+        image: meghmayu/ultimate-cicd:replaceImageTag
         ports:
         - containerPort: 8080
